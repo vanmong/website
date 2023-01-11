@@ -1,0 +1,64 @@
+
+header .menu_container {
+  background-color: rgba(30,30,30,0.9);
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+header .menu_container .util_menu ul {
+  position: relative;
+  display: flex;
+  float: right;
+  line-height: 90px;
+  width: 171.83px;
+}
+header .menu_container .util_menu ul li a {
+  padding-right: 30px;
+  font-weight: bold;
+  font-size: 11px;
+  color: #fff;
+  text-decoration: none;
+}
+header .menu_container .util_menu ul li::after {
+  content: "";
+  display: inline-block;
+  background: #fff;
+  width: 1px; height: 10px;
+  position: absolute;
+  top: 43px;
+  right: 66.5px;
+  transform: rotate(25deg);
+}
+header .menu_container .util_menu ul li::before {
+  content: "";
+  display: inline-block;
+  background: #fff;
+  width: 1px; height: 10px;
+  position: absolute;
+  top: 43px;
+  right: 122.5px;
+  transform: rotate(25deg);
+}
+
+header .menu_container .nav_bar > a {
+  float: left;
+  width: 235px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 25px;
+}
+header .menu_container .nav_bar .nav {
+  display: flex;
+  justify-content: center;
+}
+header .menu_container .nav_bar .nav li a {
+  padding: 15px 40px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  line-height: 90px;
+}
