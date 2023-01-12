@@ -1,0 +1,143 @@
+/* 이미지 */
+.main_visual .slider_wrapper .box_wrapper .box_viewport .boxslider .box_img1 {
+  background-image: url(../../public/images/main_img1.jpg) ;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/* 이미지 텍스트 */
+.main_visual .slider_wrapper .box_wrapper .box_viewport .boxslider .box_img1 .box_caption{
+  position: absolute;
+  width: 100%;
+  top: 40%;
+}
+.main_visual .slider_wrapper .box_wrapper .box_viewport .boxslider .box_img1 .box_caption h2{
+  font-size: 54px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.main_visual .slider_wrapper .box_wrapper .box_viewport .boxslider .box_img1 .box_caption p {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.main_visual .slider_wrapper .box_wrapper .box_viewport .boxslider .box_img1 .box_caption .box_btn {
+  text-align: center;
+  padding-top: 40px;
+}
+.main_visual .slider_wrapper .box_wrapper .box_viewport .boxslider .box_img1 .box_caption .box_btn a {
+  font-size: 17px;
+  font-weight: 400;
+  border: 1px solid #fff;
+  padding: 8px 35px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 버튼 */
+/* 다음, 이전버튼 */
+.main_visual .slider_wrapper .box_wrapper .box_controls .box_controls_direction .box_prev {
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  margin-top: -30px;
+  padding: 0 10px;
+}
+.main_visual .slider_wrapper .box_wrapper .box_controls .box_controls_direction .box_next {
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  margin-top: -30px;
+  padding: 0 10px;
+  right: 0;
+}
+
+
+/* 페이지 시작 정지 공통 */
+.main_visual .slider_wrapper .box_wrapper .box_controls .box_controls_icons {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+}
+.main_visual .slider_wrapper .box_wrapper .box_controls .box_controls_icons *{
+  display: inline-block;
+}
+/* 페이지 버튼 */
+.main_visual .slider_wrapper .box_wrapper .box_controls .box_controls_icons .box_pager_wrapper .box_pager .box_pager_item .box_pager_link{
+  margin: 0 3px;
+  width: 13px; height: 13px;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+}
+/* 페이지 활성화 버튼 */
+.main_visual .slider_wrapper .box_wrapper .box_controls .box_controls_icons .box_pager_wrapper .box_pager .box_pager_item .active{
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+/* 시작 정지 버튼 */
+.main_visual .slider_wrapper .box_wrapper .box_controls .box_controls_icons .box_controls_auto_item a{
+  color: #ccc;
+  margin-left: 15px;
+}
+.main_visual .slider_wrapper .box_wrapper .box_controls .box_controls_icons .box_controls_auto_item .active {
+  color: #fff;
+}
+
+
+
+/* gnb */
+.gnb_box ul {
+  width: 100%;
+  display: flex;
+  flex-wrap:  wrap;
+}
+/* 공통박스 */
+.gnb_box ul li {
+  width: 50%;
+  padding: 45px 60px;
+  display: list-item;
+}
+.gnb_box ul li .tit,
+.gnb_box ul li .txt,
+.gnb_box ul li .btn {
+  display: inline-block;
+  color: #fff;
+}
+.gnb_box ul li .btn a {
+  color: #fff; text-decoration: none;
+  font-size: 34px;
+  
+}
+.gnb_box ul li .btn {
+  width: 10%;
+  text-align: right;
+}
+.gnb_box ul li .tit{
+  font-size: 22px;
+  width: 25%;
+}
+.gnb_box ul li .tit span{
+  font-size: 36px;
+  padding-right: 15px;
+}
+.gnb_box ul li .txt {
+  font-size: 17px;
+  width: 65%;
+}
+/* 첫번째박스 */
+.gnb_box ul li:nth-child(1){
+  background-color: #0e43a1;
+}
+
+/* 두번째박스 */
+.gnb_box ul li:nth-child(2){
+  background-color: #253451;
+
+}
