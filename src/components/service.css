@@ -1,0 +1,105 @@
+/* 텍스트 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.service {
+  background-color: #f3f3f3;
+  padding: 120px 30px;
+}
+.service .container {
+  margin: 0 17.1875vw;
+}
+.service .container h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  line-height: 48px;
+}
+.service .container > p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-bottom: 50px;
+  color: #666;
+}
+/* 공통 배너 */
+.service .container .service_item{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.service .container .service_item li {
+  padding: 0 15px;
+  width: 15.4vw;
+}
+.service .container .service_item li .service_img{
+  width: 100%;
+}
+.service .container .service_item li .service_img figure{
+  box-shadow: 4px 4px 10px rgb(0 0 0 / 20%);  
+}
+.service .container .service_item li .service_txt {
+  padding-top: 30px;
+}
+.service .container .service_item li .service_txt h4 {
+  font-size: 22px;
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+.service .container .service_item li .service_txt p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.service .container .service_item li .btn .service_btn{
+  text-align: center;
+  font-size: 11px;
+  color: #999;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 30px;
+}
+
+
+/* 브랜드 스토리 */
+.brand {
+  position: relative;
+  background: url(../../public/images/brand-bg.jpg) no-repeat top center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 352px;
+}
+.brand .container{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.brand .container::after{
+  content: "";
+  display: block;
+  background-color: #000; 
+}
+.brand .container .txt {
+  text-align: center;
+  padding: 80px;
+}
+.brand .container .txt h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.brand .container .txt p {
+  color: #fff;
+  padding-bottom: 30px;
+  line-height: 26px;
+}
+.brand .container .txt div a {
+  border: 1px solid rgba(255,255,255,0.75);
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 25px;
+}
+.brand .container .txt a:hover {
+  background-color: rgba(255,255,255,0.25);
+}

@@ -1,3 +1,6 @@
+import "./customer.css"
+import Map from "./Map";
+
 function Customer() {
   return (
     <>
@@ -7,7 +10,7 @@ function Customer() {
           <h2>고객상담</h2>
           <p>디자인코코의 새로운 소식을 전해드립니다.</p>
           {/* 지도 */}
-          <div className="API">지도들어갈자리</div>
+          <div className="API"><Map /></div>
           <div className="info">
             <dl>
               <dt>주소</dt>

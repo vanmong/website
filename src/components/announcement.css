@@ -1,0 +1,38 @@
+/* 공지사항 텍스트 */
+.announcement {
+  padding: 120px 30px;
+}
+.announcement .container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.announcement .container h2{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.announcement .container p {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+/* 공지사항 테이블 */
+.announcement .container .output_table {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.announcement .container .output_table tbody tr {
+  border-bottom: 1px solid #ddd;
+  height: 75px;
+}
+.announcement .container .output_table tbody tr td a{
+  padding: 25px 25px 25px 10px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}

@@ -1,3 +1,5 @@
+import "./announcement.css";
+
 function Announcement() {
   return (
     <>
@@ -11,28 +13,23 @@ function Announcement() {
           <table className="output_table">
             <tbody>
               <tr>
-                <td><img src="" alt="" /></td>
-                <td><a href="">디자인 코코의 공지사항 테스트글입니다.</a></td>
+                <td><a href="">ㆍ 디자인 코코의 공지사항 테스트글입니다.</a></td>
                 <td>2018-01-05</td>
               </tr>
               <tr>
-                <td><img src="" alt="" /></td>
-                <td><a href="">디자인 코코의 공지사항 테스트글입니다.</a></td>
+                <td><a href="">ㆍ 디자인 코코의 공지사항 테스트글입니다.</a></td>
                 <td>2018-01-05</td>
               </tr>
               <tr>
-                <td><img src="" alt="" /></td>
-                <td><a href="">디자인 코코의 공지사항 테스트글입니다.</a></td>
+                <td><a href="">ㆍ 디자인 코코의 공지사항 테스트글입니다.</a></td>
                 <td>2018-01-05</td>
               </tr>
               <tr>
-                <td><img src="" alt="" /></td>
-                <td><a href="">디자인 코코의 공지사항 테스트글입니다.</a></td>
+                <td><a href="">ㆍ 디자인 코코의 공지사항 테스트글입니다.</a></td>
                 <td>2018-01-05</td>
               </tr>
               <tr>
-                <td><img src="" alt="" /></td>
-                <td><a href="">디자인 코코의 공지사항 테스트글입니다.</a></td>
+                <td><a href="">ㆍ 디자인 코코의 공지사항 테스트글입니다.</a></td>
                 <td>2018-01-05</td>
               </tr>
             </tbody>

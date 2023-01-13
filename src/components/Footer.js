@@ -1,3 +1,5 @@
+import "./footer.css";
+
 function Footer() {
   return (
     <>
@@ -5,7 +7,7 @@ function Footer() {
         {/* 링크 */}
         <div className="link_wrap">
           <div className="container">
-            <div className="footer_logo"><img src="" alt="로고" /></div>
+            <div className="footer_logo"><img src={`${process.env.PUBLIC_URL}/images/copyright_logo.png`} alt="로고" /></div>
             <div className="footer_util">
               <ul>
                 <li><a href="#">회사소개</a></li>
@@ -15,11 +17,11 @@ function Footer() {
             </div>
             <div className="footer_select">
               <span className="placeholder">패밀리 사이트</span>
-              <ul>
+{/*               <ul>
                 <li>카페24</li>
                 <li>디자인센터</li>
                 <li>네이버</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

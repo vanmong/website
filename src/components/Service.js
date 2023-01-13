@@ -1,3 +1,5 @@
+import "./service.css";
+
 function Service() {
   return (
     <>
@@ -11,60 +13,60 @@ function Service() {
             <li>
               <div className="service_img">
                 <figure>
-                  <img src="" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/images/service1.jpg`}  alt="" />
                 </figure>
               </div>
-              <div className="servic_txt">
+              <div className="service_txt">
                 <h4>플랫폼</h4>
                 <p>소비자의 품격 있는 삶을 위한 주거문화 창달에 노력하고 있습니다.</p>
               </div>
               <div className="btn">
-                <a href="" className="service_btn">DETAIL VIEW</a>
+                <a href="" className="service_btn">DETAIL VIEW >></a>
               </div>
             </li>
             {/* 두번째 배너 */}
             <li>
               <div className="service_img">
                 <figure>
-                  <img src="" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/images/service2.jpg`} alt="" />
                 </figure>
               </div>
-              <div className="servic_txt">
+              <div className="service_txt">
                 <h4>솔루션</h4>
                 <p>소비자의 품격 있는 삶을 위한 주거문화 창달에 노력하고 있습니다.</p>
               </div>
               <div className="btn">
-                <a href="" className="service_btn">DETAIL VIEW</a>
+                <a href="" className="service_btn">DETAIL VIEW >></a>
               </div>
             </li>
             {/* 세번째 배너 */}
             <li>
               <div className="service_img">
                 <figure>
-                  <img src="" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/images/service3.jpg`} alt="" />
                 </figure>
               </div>
-              <div className="servic_txt">
+              <div className="service_txt">
                 <h4>서비스</h4>
                 <p>소비자의 품격 있는 삶을 위한 주거문화 창달에 노력하고 있습니다.</p>
               </div>
               <div className="btn">
-                <a href="" className="service_btn">DETAIL VIEW</a>
+                <a href="" className="service_btn">DETAIL VIEW >></a>
               </div>
             </li>
             {/* 네번째 배너 */}
             <li>
               <div className="service_img">
                 <figure>
-                  <img src="" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/images/service4.jpg`} alt="" />
                 </figure>
               </div>
-              <div className="servic_txt">
+              <div className="service_txt">
                 <h4>기술지원</h4>
                 <p>소비자의 품격 있는 삶을 위한 주거문화 창달에 노력하고 있습니다.</p>
               </div>
               <div className="btn">
-                <a href="" className="service_btn">DETAIL VIEW</a>
+                <a href="" className="service_btn">DETAIL VIEW >></a>
               </div>
             </li>
           </ul>
